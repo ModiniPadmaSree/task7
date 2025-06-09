@@ -1,0 +1,30 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #100118;
+      padding: 20px;
+    }
+    #user-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+      .user-card {
+      background: rgb(236, 193, 205);
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      width:350px;
+    }
+    .user-card h3 {
+      margin: 0 0 5px;
+    }
+    .error {
+      color: red;
+    }
+    button {
+      margin-bottom: 20px;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    
